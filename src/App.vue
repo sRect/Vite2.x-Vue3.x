@@ -2,11 +2,20 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
   <JsxCom />
+  <hr />
+  <Todolist />
+  <hr />
+  <Vbind />
+  <hr />
+  <DynamicArg />
 </template>
 
 <script setup>
 import HelloWorld from '@/components/HelloWorld.vue';
 import JsxCom from '@/components/JsxCom.vue';
+import Todolist from '@/components/Todolist.vue';
+import Vbind from '@/components/Vbind.vue';
+import DynamicArg from '@/components/DynamicArg.vue';
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
