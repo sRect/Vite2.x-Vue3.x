@@ -8,6 +8,10 @@
   <Vbind />
   <hr />
   <DynamicArg />
+  <hr />
+  <CompositionApi />
+  <hr />
+  <LifeCycle />
 </template>
 
 <script setup>
@@ -16,6 +20,8 @@ import JsxCom from '@/components/JsxCom.vue';
 import Todolist from '@/components/Todolist.vue';
 import Vbind from '@/components/Vbind.vue';
 import DynamicArg from '@/components/DynamicArg.vue';
+import CompositionApi from '@/components/CompositionApi.vue';
+import LifeCycle from '@/components/LifeCycle.vue';
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
