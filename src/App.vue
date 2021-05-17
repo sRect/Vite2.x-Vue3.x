@@ -12,6 +12,8 @@
   <CompositionApi />
   <hr />
   <LifeCycle />
+  <hr />
+  <Hooks />
 </template>
 
 <script setup>
@@ -22,6 +24,7 @@ import Vbind from '@/components/Vbind.vue';
 import DynamicArg from '@/components/DynamicArg.vue';
 import CompositionApi from '@/components/CompositionApi.vue';
 import LifeCycle from '@/components/LifeCycle.vue';
+import Hooks from '@/components/Hooks.vue';
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
