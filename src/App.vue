@@ -19,7 +19,7 @@
   <hr />
   <Hooks />
   <hr />
-  
+  <SlotParentCom />
   
 </template>
 
@@ -34,6 +34,7 @@ import LifeCycle from '@/components/LifeCycle.vue';
 import Hooks from '@/components/Hooks.vue';
 import SuspenseCom from '@/components/SuspenseCom.vue';
 import AsyncComponent2 from '@/components/AsyncComponent2.vue';
+import SlotParentCom from '@/components/SlotParentCom.vue';
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
