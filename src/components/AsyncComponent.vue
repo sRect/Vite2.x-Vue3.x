@@ -13,7 +13,7 @@ const state = reactive({
 });
 
 function handleGetUuid() {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     fetch('https://httpbin.org/uuid')
       .then(res => res.json())
       .then(data => {
@@ -24,6 +24,7 @@ function handleGetUuid() {
       }) 
       .catch(e => {
         console.log(e);
+        reject();
       })
   });
 }
