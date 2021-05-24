@@ -21,7 +21,7 @@ function handleGetUuid() {
         setTimeout(() => {
           resolve(data.uuid);
         }, 1000)
-      })
+      }) 
       .catch(e => {
         console.log(e);
       })
